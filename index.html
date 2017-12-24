@@ -19,98 +19,118 @@
             </div>
             <div id="questions">
             <div class="container">
-                    <p id = "timeremaining"><h2>Time Remaining: </h2></p>
+                    <p id = "timeremaining"></p>
                     <h2>What was the first full length CGI movie?</h2>
-                    <!--THIS CODE FORM TYPE NAME ALLOWS THE USER TO SELECT ONLY ONE CHOICE AT A TIME-->
-                <form>
-                      <label class="radio-inline">
-                        <input type="radio" name="optradio">A Bug's Life
-                      </label>
-                      <label class="radio-inline">
-                        <input type="radio" name="optradio">Monsters Inc.
-                      </label>
-                      <label class="radio-inline">
-                        <input type="radio" name="optradio">Toy Story
-                      </label>
-                      <label class="radio-inline">
-                          <input type="radio" name="optradio">The Lion King
-                      </label>
-                </form>
-            </div>
+                    <!--THIS CODE FORM TYPE NAME ALLOWS THE USER TO SELECT ONLY ONE CHOICE AT A TIME RADIO BUTTONS FROM BOOTSTRAP-->   
+
+                <form id="movie"> 
+                    
+                    <div>
+                      <input type="radio" id="movieChoice1"
+                             name="movie" value="A Bug's life">
+                      <label for="movieChoice1">A Bug's Life</label>
+                      <input type="radio" id="movieChoice2"
+                             name="movie" value="Monsters Inc.">
+                      <label for="movieChoice2">Monsters Inc.</label>
+                      <input type="radio" id="movieChoice3"
+                             name="movie" value="Toy Story">
+                      <label for="movieChoice3">Toy Story</label>
+                      <input type="radio" id="movieChoice4"
+                      name="movie" value="The Lion King">
+                      <label for="movieChoice4">The Lion King</label>
+                    </div>
+                    <!--<div>
+                      <button type="submit">Submit</button>
+                    </div>!-->
+                 </form>
                   
+            </div>
+                
+            
             <div class="container">
                     <h2>Which of these is NOT a name of one of the Spice Girls?</h2>
                     
-                <form>
-                      <label class="radio-inline">
-                        <input type="radio" name="optradio">Sporty Spice
-                      </label>
-                      <label class="radio-inline">
-                        <input type="radio" name="optradio">Fred Spice
-                      </label>
-                      <label class="radio-inline">
-                        <input type="radio" name="optradio">Scary Spice
-                      </label>
-                      <label class="radio-inline">
-                          <input type="radio" name="optradio">Posh Spice
-                      </label>
+                <form id="spice">
+
+                        <div>
+                                <input type="radio" id="spiceChoice1"
+                                       name="spice" value="Sporty Spice">
+                                <label for="spiceChoice1">Sporty Spice</label>
+                                <input type="radio" id="spiceChoice2"
+                                       name="spice" value="Fred Spice">
+                                <label for="spiceChoice2">Fred Spice</label>
+                                <input type="radio" id="spiceChoice3"
+                                       name="spice" value="Scary Spice">
+                                <label for="spiceChoice3">Scary Spice</label>
+                                <input type="radio" id="spiceChoice4"
+                                name="spice" value="Posh Spice">
+                                <label for="spiceChoice4">Posh Spice</label>
+                        </div>                    
                 </form>
             </div>
     
             <div class="container">
                     <h2>Which NBA team won the most titles in the 90s?</h2>
                     
-                <form>
-                      <label class="radio-inline">
-                        <input type="radio" name="optradio">New York Knicks
-                      </label>
-                      <label class="radio-inline">
-                        <input type="radio" name="optradio">Portland Trailblazers
-                      </label>
-                      <label class="radio-inline">
-                        <input type="radio" name="optradio">Los Angeles Lakers
-                      </label>
-                      <label class="radio-inline">
-                          <input type="radio" name="optradio">Chicago Bulls
-                      </label>
+                <form id="NBA">
+                       
+                        <div>
+                                <input type="radio" id="teamChoice1"
+                                       name="team" value="New York Knicks">
+                                <label for="teamChoice1">New York Knicks</label>
+                                <input type="radio" id="teamChoice2"
+                                       name="team" value="Portland Trailblazers">
+                                <label for="teamChoice2">Portland Trailblazers</label>
+                                <input type="radio" id="teamChoice3"
+                                       name="team" value="Los Angeles Lakers">
+                                <label for="teamChoice3">Los Angeles Lakers</label>
+                                <input type="radio" id="teamChoice4"
+                                name="team" value="Chicago Bulls">
+                                <label for="teamChoice4">Chicago Bulls</label>
+                        </div>       
                 </form>
             </div>
     
             <div class="container">
                     <h2>Which group released the hit song. "Smells like Teen Spirit?</h2>
                     
-                <form>
-                      <label class="radio-inline">
-                        <input type="radio" name="optradio">Nirvana
-                      </label>
-                      <label class="radio-inline">
-                        <input type="radio" name="optradio">Backstreet Boys
-                      </label>
-                      <label class="radio-inline">
-                        <input type="radio" name="optradio">The Offspring
-                      </label>
-                      <label class="radio-inline">
-                          <input type="radio" name="optradio">No Doubt
-                      </label>
+                <form id="song">
+                    <div>
+                        <input type="radio" id="bandChoice1"
+                            name="band" value="Nirvana">
+                        <label for="bandChoice1">Nirvana</label>
+                        <input type="radio" id="bandChoice2"
+                            name="band" value="Backstreet Boys">
+                        <label for="bandChoice2">Backstreet Boys</label>
+                        <input type="radio" id="bandChoice3"
+                            name="band" value="The Offspring">
+                        <label for="bandChoice3">The Offspring</label>
+                        <input type="radio" id="bandChoice4"
+                            name="band" value="No Doubt">
+                        <label for="bandChoice4">No Doubt</label>
+
+                    </div>
                 </form>
             </div>
     
             <div class="container">
                     <h2>Which popular Disney movie featured the song, "Circle of Life"?</h2>
                     
-                <form>
-                      <label class="radio-inline">
-                        <input type="radio" name="optradio">Aladdin
-                      </label>
-                      <label class="radio-inline">
-                        <input type="radio" name="optradio">Hercules
-                      </label>
-                      <label class="radio-inline">
-                        <input type="radio" name="optradio">Mulan
-                      </label>
-                      <label class="radio-inline">
-                          <input type="radio" name="optradio">The Lion King
-                      </label>
+                <form id="dmovie">
+                    <div>
+                        <input type="radio" id="dmovieChoice1"
+                            name="dmovie" value="Aladdin">
+                        <label for="dmovieChoice1">Aladdin</label>
+                        <input type="radio" id="dmovieChoice2"
+                            name="dmovie" value="Hercules">
+                        <label for="dmovieChoice2">Hercules</label>
+                        <input type="radio" id="dmovieChoice3"
+                            name="dmovie" value="Mulan">
+                        <label for="dmovieChoice3">Mulan</label>
+                        <input type="radio" id="dmovieChoice4"
+                            name="dmovie" value="The Lion King">
+                        <label for="dmovieChoice4">The Lion King</label>
+                    </div>
                 </form>
             </div>
     
@@ -119,63 +139,68 @@
                         whistled for a cab and when it came near, the license plate said..."
                     </h2>
                     
-                <form>
-                      <label class="radio-inline">
-                        <input type="radio" name="optradio">Dice
-                      </label>
-                      <label class="radio-inline">
-                        <input type="radio" name="optradio">Mirror
-                      </label>
-                      <label class="radio-inline">
-                        <input type="radio" name="optradio">Fresh
-                      </label>
-                      <label class="radio-inline">
-                          <input type="radio" name="optradio">Cab
-                      </label>
+                <form id="plate">
+                    <div>
+                        <input type="radio" id="plateChoice1"
+                            name="plate" value="Dice">
+                        <label for="plateChoice1">Dice</label>
+                        <input type="radio" id="plateChoice2"
+                            name="plate" value="Mirror">
+                        <label for="plateChoice2">Mirror</label>
+                        <input type="radio" id="plateChoice3"
+                            name="plate" value="Fresh">
+                        <label for="plateChoice3">Fresh</label>
+                        <input type="radio" id="plateChoice4"
+                            name="plate" value="Cab">
+                        <label for="plateChoice4">Cab</label>
+                    </div>
                 </form>
             </div>
     
             <div class="container">
                     <h2>What was Doug's best friend's name?</h2>
                     
-                <form>
-                      <label class="radio-inline">
-                        <input type="radio" name="optradio">Skeeter
-                      </label>
-                      <label class="radio-inline">
-                        <input type="radio" name="optradio">Mark
-                      </label>
-                      <label class="radio-inline">
-                        <input type="radio" name="optradio">Zach
-                      </label>
-                      <label class="radio-inline">
-                          <input type="radio" name="optradio">Cody
-                      </label>
+                <form id="friend">
+                    <div>
+                        <input type="radio" id="friendChoice1" name="friend" value="Skeeter">
+                        <label for="friendChoice1">Skeeter</label>
+                        <input type="radio" id="friendChoice2" name="friend" value="Mark">
+                        <label for="friendChoice2">Mark</label>
+                        <input type="radio" id="friendChoice3" name="friend" value="Zach">
+                        <label for="friendChoice3">Zach</label>
+                        <input type="radio" id="friendChoice4" name="friend" value="Cody">
+                        <label for="friendChoice4">Cody</label>
+                    </div>
                 </form>
             </div>
     
             <div class="container">
                     <h2>What was the name of the principal at Bayside High in Saved By The Bell?</h2>
                     
-                <form>
-                      <label class="radio-inline">
-                        <input type="radio" name="optradio" value="Mr.Zhou">Mr.Zhou
-                        console.log(value)
-                      </label>
-                      <label class="radio-inline">
-                        <input type="radio" name="optradio" value="Mr.driggers">Mr.Driggers
-                      </label>
-                      <label class="radio-inline">
-                        <input type="radio" name="optradio" value="Mr.Belding">Mr.Belding
-                      </label>
-                      <label class="radio-inline">
-                          <input type="radio" name="optradio" value="Mr.Page">Mr.Page
-                      </label>
+                <form id="priname">
+                    <div>
+                        <input type="radio" id="prinameChoice1" name="priname" value="Mr. Zhou">
+                        <label for="prinameChoice1">Mr. Zhou</label>
+                        <input type="radio" id="prinameChoice2" name="priname" value="Mr. Driggers">
+                        <label for="prinameChoice2">Mr. Driggers</label>
+                        <input type="radio" id="prinameChoice3" name="priname" value="Mr. Belding">
+                        <label for="prinameChoice3">Mr. Belding</label>
+                        <input type="radio" id="prinameChoice4" name="priname" value="Mr. Page">
+                        <label for="prinameChoice4">Mr. Page</label>
+                    </div>
                 </form>
             </div>
                 <div class="container">
                     <button id="done" type="button" class = "btn btn-default btn-lg"><strong>    DONE    </strong></button>
                 </div>
+            </div>
+            <div id="alldone">
+            <div class="container">
+                <h1 >All Done!</h1>
+                <h1 id="CorrectAnswers">Correct Answers: </h1>
+                <h1 id="IncorrectAnswers">Incorrect Answers: </h1>
+                <h1 id="Unanswered">Unanswered: </h1>
+            </div>
             </div>
         </div>
     </div>
