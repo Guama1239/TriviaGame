@@ -7,103 +7,183 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Trivia Game</title>
 </head>
 <body>
-        <div class="container">
-                <h1>What was the first full length CGI movie?</h1>
-                
-            <form>
-                  <label class="radio-inline">
-                    <input type="radio" name="optradio">A Bug's Life
-                  </label>
-                  <label class="radio-inline">
-                    <input type="radio" name="optradio">Monsters Inc.
-                  </label>
-                  <label class="radio-inline">
-                    <input type="radio" name="optradio">Toy Story
-                  </label>
-                  <label class="radio-inline">
-                      <input type="radio" name="optradio">The Lion King
-                  </label>
-            </form>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="header"><h1>Totally Trivial Trivia!</h1></div>
+            <div  class="container">
+                    <button id="start" type="button" class = "btn btn-default btn-lg" ><strong>    START    </strong></button>
+            </div>
+            <div id="questions">
+            <div class="container">
+                    <h2>What was the first full length CGI movie?</h2>
+                    <!--THIS CODE FORM TYPE NAME ALLOWS THE USER TO SELECT ONLY ONE CHOICE AT A TIME-->
+                <form>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio">A Bug's Life
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio">Monsters Inc.
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio">Toy Story
+                      </label>
+                      <label class="radio-inline">
+                          <input type="radio" name="optradio">The Lion King
+                      </label>
+                </form>
+            </div>
+                  
+            <div class="container">
+                    <h2>Which of these is NOT a name of one of the Spice Girls?</h2>
+                    
+                <form>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio">Sporty Spice
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio">Fred Spice
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio">Scary Spice
+                      </label>
+                      <label class="radio-inline">
+                          <input type="radio" name="optradio">Posh Spice
+                      </label>
+                </form>
+            </div>
+    
+            <div class="container">
+                    <h2>Which NBA team won the most titles in the 90s?</h2>
+                    
+                <form>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio">New York Knicks
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio">Portland Trailblazers
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio">Los Angeles Lakers
+                      </label>
+                      <label class="radio-inline">
+                          <input type="radio" name="optradio">Chicago Bulls
+                      </label>
+                </form>
+            </div>
+    
+            <div class="container">
+                    <h2>Which group released the hit song. "Smells like Teen Spirit?</h2>
+                    
+                <form>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio">Nirvana
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio">Backstreet Boys
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio">The Offspring
+                      </label>
+                      <label class="radio-inline">
+                          <input type="radio" name="optradio">No Doubt
+                      </label>
+                </form>
+            </div>
+    
+            <div class="container">
+                    <h2>Which popular Disney movie featured the song, "Circle of Life"?</h2>
+                    
+                <form>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio">Aladdin
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio">Hercules
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio">Mulan
+                      </label>
+                      <label class="radio-inline">
+                          <input type="radio" name="optradio">The Lion King
+                      </label>
+                </form>
+            </div>
+    
+            <div class="container">
+                    <h2>Finish this line from the Fresh Prince of Bel-Air theme song: "I 
+                        whistled for a cab and when it came near, the license plate said..."
+                    </h2>
+                    
+                <form>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio">Dice
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio">Mirror
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio">Fresh
+                      </label>
+                      <label class="radio-inline">
+                          <input type="radio" name="optradio">Cab
+                      </label>
+                </form>
+            </div>
+    
+            <div class="container">
+                    <h2>What was Doug's best friend's name?</h2>
+                    
+                <form>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio">Skeeter
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio">Mark
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio">Zach
+                      </label>
+                      <label class="radio-inline">
+                          <input type="radio" name="optradio">Cody
+                      </label>
+                </form>
+            </div>
+    
+            <div class="container">
+                    <h2>What was the name of the principal at Bayside High in Saved By The Bell?</h2>
+                    
+                <form>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio" value="Mr.Zhou">Mr.Zhou
+                        console.log(value)
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio" value="Mr.driggers">Mr.Driggers
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio" value="Mr.Belding">Mr.Belding
+                      </label>
+                      <label class="radio-inline">
+                          <input type="radio" name="optradio" value="Mr.Page">Mr.Page
+                      </label>
+                </form>
+            </div>
+                <div class="container">
+                    <button type="button" class = "btn btn-default btn-lg"><strong>    DONE    </strong></button>
+                </div>
+            </div>
         </div>
-              
-        <div class="container">
-                <h1>What was the first full length CGI movie?</h1>
-                
-            <form>
-                  <label class="radio-inline">
-                    <input type="radio" name="optradio">A Bug's Life
-                  </label>
-                  <label class="radio-inline">
-                    <input type="radio" name="optradio">Monsters Inc.
-                  </label>
-                  <label class="radio-inline">
-                    <input type="radio" name="optradio">Toy Story
-                  </label>
-                  <label class="radio-inline">
-                      <input type="radio" name="optradio">The Lion King
-                  </label>
-            </form>
-        </div>
+    </div>
 
-        <div class="container">
-                <h1>What was the first full length CGI movie?</h1>
-                
-            <form>
-                  <label class="radio-inline">
-                    <input type="radio" name="optradio">A Bug's Life
-                  </label>
-                  <label class="radio-inline">
-                    <input type="radio" name="optradio">Monsters Inc.
-                  </label>
-                  <label class="radio-inline">
-                    <input type="radio" name="optradio">Toy Story
-                  </label>
-                  <label class="radio-inline">
-                      <input type="radio" name="optradio">The Lion King
-                  </label>
-            </form>
-        </div>
+        
+        
 
-        <div class="container">
-                <h1>What was the first full length CGI movie?</h1>
-                
-            <form>
-                  <label class="radio-inline">
-                    <input type="radio" name="optradio">A Bug's Life
-                  </label>
-                  <label class="radio-inline">
-                    <input type="radio" name="optradio">Monsters Inc.
-                  </label>
-                  <label class="radio-inline">
-                    <input type="radio" name="optradio">Toy Story
-                  </label>
-                  <label class="radio-inline">
-                      <input type="radio" name="optradio">The Lion King
-                  </label>
-            </form>
-        </div>
 
-        <div class="container">
-                <h1>What was the first full length CGI movie?</h1>
-                
-            <form>
-                  <label class="radio-inline">
-                    <input type="radio" name="optradio">A Bug's Life
-                  </label>
-                  <label class="radio-inline">
-                    <input type="radio" name="optradio">Monsters Inc.
-                  </label>
-                  <label class="radio-inline">
-                    <input type="radio" name="optradio">Toy Story
-                  </label>
-                  <label class="radio-inline">
-                      <input type="radio" name="optradio">The Lion King
-                  </label>
-            </form>
-        </div>
+
     <!-- JQuery JS -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Logic.js -->
